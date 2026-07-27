@@ -1,7 +1,23 @@
 aid: freejit
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/freejit.png
 name: Freejit
-description: Freejit is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Freejit (styled FREEjit) was an early-stage startup founded around 2010 in Newport Beach,
+  California, that attempted to turn browser autocomplete into a marketable service. It was backed by
+  500 Global (formerly 500 Startups) and other early investors. Per public company registries the
+  business is now closed/defunct, and its domain (freejit.com) no longer resolves. It was added to the
+  API Evangelist network as a venture-portfolio lead; enrichment found no live developer surface, API,
+  documentation, SDKs, or specifications to harvest.
 url: https://raw.githubusercontent.com/api-evangelist/freejit/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +25,17 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Startup
+- Autocomplete
+- Search
+- Defunct
+- Venture Portfolio
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +44,9 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://qualaroo.com
+  url: https://freejit.com
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
